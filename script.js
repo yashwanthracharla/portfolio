@@ -29,10 +29,10 @@ TYPING EFFECT
 ================================= */
 
 const text = [
-"AI/ML Engineer",
-"Machine Learning Developer",
-"Generative AI Enthusiast",
-"Python Developer"
+    "AI/ML Engineer",
+    "Machine Learning Developer",
+    "Generative AI Developer",
+    "Python Developer"
 ];
 
 let i = 0;
