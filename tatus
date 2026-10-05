@@ -1,0 +1,452 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 0c00e7a..06c5a28 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -72,56 +72,141 @@[m
+ [m
+ <!-- ================= HERO ================= -->[m
+ [m
+[31m-<section class="hero text-center text-white d-flex align-items-center">[m
+[32m+[m[32m<section class="hero text-white d-flex align-items-center">[m[41m[m
+ [m
+[31m-    <div class="container hero-content">[m
+[32m+[m[32m    <div class="container">[m[41m[m
+ [m
+[31m-        <p class="hero-label">[m
+[31m-            AI / MACHINE LEARNING[m
+[31m-        </p>[m
+[32m+[m[32m        <div class="row align-items-center g-5">[m[41m[m
+ [m
+[31m-        <h1>[m
+[31m-            Hi, I'm Yashwanth <span>👋</span>[m
+[31m-        </h1>[m
+[32m+[m[32m            <!-- ================= HERO CONTENT ================= -->[m[41m[m
+ [m
+[31m-        <h2>[m
+[31m-            <span id="typing"></span>[m
+[31m-        </h2>[m
+[32m+[m[32m            <div class="col-lg-7 hero-content">[m[41m[m
+ [m
+[31m-        <p class="hero-description">[m
+[31m-            I build practical AI and machine learning applications[m
+[31m-            using Python, NLP, Generative AI and modern backend technologies.[m
+[31m-        </p>[m
+[32m+[m[32m                <!-- Small Label -->[m[41m[m
+ [m
+[31m-        <div class="hero-buttons">[m
+[32m+[m[32m                <div class="hero-label">[m[41m[m
+[32m+[m[32m                    AI / MACHINE LEARNING ENGINEER[m[41m[m
+[32m+[m[32m                </div>[m[41m[m
+ [m
+[31m-            <a href="#projects" class="btn btn-primary">[m
+[31m-                View Projects[m
+[31m-            </a>[m
+ [m
+[31m-            <a href="resume/yashwanth_resume (1).pdf"[m
+[31m-               download[m
+[31m-               class="btn btn-outline-light">[m
+[31m-                Download Resume[m
+[31m-            </a>[m
+[32m+[m[32m                <!-- Main Heading -->[m[41m[m
+ [m
+[31m-        </div>[m
+[32m+[m[32m                <h1>[m[41m[m
+[32m+[m[32m                    Building Intelligent[m[41m[m
+[32m+[m[32m                    <span>AI Solutions.</span>[m[41m[m
+[32m+[m[32m                </h1>[m[41m[m
+ [m
+[31m-        <div class="social-links">[m
+ [m
+[31m-            <a href="https://github.com/yashwanthracharla"[m
+[31m-               target="_blank"[m
+[31m-               rel="noopener noreferrer">[m
+[31m-                GitHub[m
+[31m-            </a>[m
+[32m+[m[32m                <!-- Typing Role -->[m[41m[m
+ [m
+[31m-            <span>•</span>[m
+[32m+[m[32m                <h2>[m[41m[m
+[32m+[m[32m                    I'm[m[41m[m
+[32m+[m[32m                    <span id="typing"></span>[m[41m[m
+[32m+[m[32m                </h2>[m[41m[m
+ [m
+[31m-            <a href="https://www.linkedin.com/in/yashwanthracharla669"[m
+[31m-               target="_blank"[m
+[31m-               rel="noopener noreferrer">[m
+[31m-                LinkedIn[m
+[31m-            </a>[m
+[32m+[m[41m[m
+[32m+[m[32m                <!-- Description -->[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                <p class="hero-description">[m[41m[m
+[32m+[m[32m                    I build practical AI and machine learning applications[m[41m[m
+[32m+[m[32m                    using Python, NLP, Generative AI and modern backend[m[41m[m
+[32m+[m[32m                    technologies — turning ideas into useful software.[m[41m[m
+[32m+[m[32m                </p>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                <!-- Buttons -->[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                <div class="hero-buttons">[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    <a href="#projects" class="btn btn-primary">[m[41m[m
+[32m+[m[32m                        View My Projects[m[41m[m
+[32m+[m[32m                    </a>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    <a href="resume/Yashwanth_Racharla_AI_ML_Resume.pdf"[m[41m[m
+[32m+[m[32m                       download[m[41m[m
+[32m+[m[32m                       class="btn btn-outline-light">[m[41m[m
+[32m+[m[32m                        Download Resume[m[41m[m
+[32m+[m[32m                    </a>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                </div>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                <!-- Social Links -->[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                <div class="social-links">[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    <a href="https://github.com/yashwanthracharla"[m[41m[m
+[32m+[m[32m                       target="_blank"[m[41m[m
+[32m+[m[32m                       rel="noopener noreferrer">[m[41m[m
+[32m+[m[32m                        GitHub ↗[m[41m[m
+[32m+[m[32m                    </a>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    <span>•</span>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    <a href="https://www.linkedin.com/in/yashwanthracharla669"[m[41m[m
+[32m+[m[32m                       target="_blank"[m[41m[m
+[32m+[m[32m                       rel="noopener noreferrer">[m[41m[m
+[32m+[m[32m                        LinkedIn ↗[m[41m[m
+[32m+[m[32m                    </a>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    <span>•</span>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    <a href="mailto:yashwanthracharla669@gmail.com">[m[41m[m
+[32m+[m[32m                        Email ↗[m[41m[m
+[32m+[m[32m                    </a>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                </div>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m            </div>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m            <!-- ================= AI VISUAL ================= -->[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m            <div class="col-lg-5 d-none d-lg-flex justify-content-center">[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                <div class="ai-orbit">[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    <!-- Outer Orbit -->[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    <div class="orbit-ring ring-one">[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                        <span class="orbit-dot dot-one"></span>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    </div>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    <!-- Inner Orbit -->[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    <div class="orbit-ring ring-two">[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                        <span class="orbit-dot dot-two"></span>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    </div>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    <!-- AI Core -->[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    <div class="ai-core">[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                        <div class="core-icon">[m[41m[m
+[32m+[m[32m                            AI[m[41m[m
+[32m+[m[32m                        </div>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                        <div class="core-labels">[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                            <span>PYTHON</span>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                            <span>ML</span>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                            <span>NLP</span>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                        </div>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    </div>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                </div>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m            </div>[m[41m[m
+ [m
+         </div>[m
+ [m
+[36m@@ -142,98 +227,156 @@[m
+ [m
+         <div class="row align-items-center g-5">[m
+ [m
+[31m-            <!-- About Text -->[m
+[32m+[m[32m            <!-- LEFT: INTRODUCTION -->[m[41m[m
+ [m
+             <div class="col-lg-7">[m
+ [m
+[31m-                <p class="about-intro">[m
+[31m-                    I'm an aspiring <strong>AI/ML Engineer</strong> focused on[m
+[31m-                    building practical applications that solve real-world[m
+[31m-                    problems using Artificial Intelligence and Machine Learning.[m
+[31m-                </p>[m
+[32m+[m[32m                <div class="about-content">[m[41m[m
+ [m
+[31m-                <p>[m
+[31m-                    I work primarily with <strong>Python</strong> and have hands-on[m
+[31m-                    experience building applications involving Machine Learning,[m
+[31m-                    Natural Language Processing, Generative AI and backend APIs.[m
+[31m-                </p>[m
+[32m+[m[32m                    <span class="about-label">[m[41m[m
+[32m+[m[32m                        WHO I AM[m[41m[m
+[32m+[m[32m                    </span>[m[41m[m
+ [m
+[31m-                <p>[m
+[31m-                    My projects include a conversational <strong>AI Agent with[m
+[31m-                    persistent memory</strong>, an <strong>AI Job Readiness[m
+[31m-                    Analyzer</strong> for resume and skill analysis, and a[m
+[31m-                    full-stack <strong>Online Library Management System</strong>.[m
+[31m-                </p>[m
+[32m+[m[32m                    <h3>[m[41m[m
+[32m+[m[32m                        Building AI systems that solve[m[41m[m
+[32m+[m[32m                        <span>real problems.</span>[m[41m[m
+[32m+[m[32m                    </h3>[m[41m[m
+ [m
+[31m-                <p>[m
+[31m-                    I'm continuously strengthening my understanding of[m
+[31m-                    Machine Learning, NLP, LLMs and AI system development while[m
+[31m-                    looking for opportunities to contribute to meaningful[m
+[31m-                    AI-driven products.[m
+[31m-                </p>[m
+[32m+[m[32m                    <p class="about-intro">[m[41m[m
+[32m+[m[32m                        I'm an aspiring <strong>AI/ML Engineer</strong>[m[41m[m
+[32m+[m[32m                        focused on building practical applications using[m[41m[m
+[32m+[m[32m                        Artificial Intelligence, Machine Learning and[m[41m[m
+[32m+[m[32m                        modern software development.[m[41m[m
+[32m+[m[32m                    </p>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    <p>[m[41m[m
+[32m+[m[32m                        I primarily work with <strong>Python</strong> and[m[41m[m
+[32m+[m[32m                        have hands-on experience developing applications[m[41m[m
+[32m+[m[32m                        involving Machine Learning, Natural Language[m[41m[m
+[32m+[m[32m                        Processing, Generative AI, LLMs and backend APIs.[m[41m[m
+[32m+[m[32m                    </p>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    <p>[m[41m[m
+[32m+[m[32m                        My projects include a conversational[m[41m[m
+[32m+[m[32m                        <strong>AI Agent with persistent memory</strong>,[m[41m[m
+[32m+[m[32m                        an <strong>AI Job Readiness Analyzer</strong>[m[41m[m
+[32m+[m[32m                        for resume and skill analysis, and a[m[41m[m
+[32m+[m[32m                        full-stack <strong>Online Library Management[m[41m[m
+[32m+[m[32m                        System</strong>.[m[41m[m
+[32m+[m[32m                    </p>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    <p>[m[41m[m
+[32m+[m[32m                        I'm continuously improving my understanding of[m[41m[m
+[32m+[m[32m                        AI systems and software engineering while looking[m[41m[m
+[32m+[m[32m                        for opportunities where I can learn, contribute[m[41m[m
+[32m+[m[32m                        and build useful technology.[m[41m[m
+[32m+[m[32m                    </p>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                </div>[m[41m[m
+ [m
+             </div>[m
+ [m
+ [m
+[31m-            <!-- AI Focus -->[m
+[32m+[m[32m            <!-- RIGHT: TECHNICAL FOCUS -->[m[41m[m
+ [m
+             <div class="col-lg-5">[m
+ [m
+                 <div class="focus-card">[m
+ [m
+                     <div class="focus-header">[m
+[32m+[m[41m[m
+                         <span class="focus-dot"></span>[m
+[31m-                        <h4>AI / ML Focus</h4>[m
+[32m+[m[41m[m
+[32m+[m[32m                        <h4>[m[41m[m
+[32m+[m[32m                            AI / ML Focus[m[41m[m
+[32m+[m[32m                        </h4>[m[41m[m
+[32m+[m[41m[m
+                     </div>[m
+ [m
+[32m+[m[41m[m
+                     <div class="focus-grid">[m
+ [m
+                         <div class="focus-item">[m
+[31m-                            <span class="focus-icon">🐍</span>[m
+[32m+[m[41m[m
+[32m+[m[32m                            <span class="focus-icon">[m[41m[m
+[32m+[m[32m                                🐍[m[41m[m
+[32m+[m[32m                            </span>[m[41m[m
+[32m+[m[41m[m
+                             <div>[m
+                                 <h6>Python</h6>[m
+                                 <p>Core development</p>[m
+                             </div>[m
+[32m+[m[41m[m
+                         </div>[m
+ [m
+[32m+[m[41m[m
+                         <div class="focus-item">[m
+[31m-                            <span class="focus-icon">🧠</span>[m
+[32m+[m[41m[m
+[32m+[m[32m                            <span class="focus-icon">[m[41m[m
+[32m+[m[32m                                🧠[m[41m[m
+[32m+[m[32m                            </span>[m[41m[m
+[32m+[m[41m[m
+                             <div>[m
+                                 <h6>Machine Learning</h6>[m
+                                 <p>Models & evaluation</p>[m
+                             </div>[m
+[32m+[m[41m[m
+                         </div>[m
+ [m
+[32m+[m[41m[m
+                         <div class="focus-item">[m
+[31m-                            <span class="focus-icon">📝</span>[m
+[32m+[m[41m[m
+[32m+[m[32m                            <span class="focus-icon">[m[41m[m
+[32m+[m[32m                                📝[m[41m[m
+[32m+[m[32m                            </span>[m[41m[m
+[32m+[m[41m[m
+                             <div>[m
+                                 <h6>NLP</h6>[m
+                                 <p>Text analysis</p>[m
+                             </div>[m
+[32m+[m[41m[m
+                         </div>[m
+ [m
+[32m+[m[41m[m
+                         <div class="focus-item">[m
+[31m-                            <span class="focus-icon">✨</span>[m
+[32m+[m[41m[m
+[32m+[m[32m                            <span class="focus-icon">[m[41m[m
+[32m+[m[32m                                ✨[m[41m[m
+[32m+[m[32m                            </span>[m[41m[m
+[32m+[m[41m[m
+                             <div>[m
+                                 <h6>Generative AI</h6>[m
+                                 <p>LLMs & AI Agents</p>[m
+                             </div>[m
+[32m+[m[41m[m
+                         </div>[m
+ [m
+[32m+[m[41m[m
+                         <div class="focus-item">[m
+[31m-                            <span class="focus-icon">⚡</span>[m
+[32m+[m[41m[m
+[32m+[m[32m                            <span class="focus-icon">[m[41m[m
+[32m+[m[32m                                ⚡[m[41m[m
+[32m+[m[32m                            </span>[m[41m[m
+[32m+[m[41m[m
+                             <div>[m
+                                 <h6>Backend APIs</h6>[m
+                                 <p>FastAPI & Django</p>[m
+                             </div>[m
+[32m+[m[41m[m
+                         </div>[m
+ [m
+[32m+[m[41m[m
+                         <div class="focus-item">[m
+[31m-                            <span class="focus-icon">🗄️</span>[m
+[32m+[m[41m[m
+[32m+[m[32m                            <span class="focus-icon">[m[41m[m
+[32m+[m[32m                                🗄️[m[41m[m
+[32m+[m[32m                            </span>[m[41m[m
+[32m+[m[41m[m
+                             <div>[m
+                                 <h6>Data & Storage</h6>[m
+                                 <p>SQL & vector DBs</p>[m
+                             </div>[m
+[32m+[m[41m[m
+                         </div>[m
+ [m
+                     </div>[m
+[36m@@ -249,46 +392,82 @@[m
+ </section>[m
+ [m
+ [m
+[32m+[m[41m[m
+[32m+[m[41m[m
+ <!-- ================= SKILLS ================= -->[m
+ [m
+[31m-<section id="skills" class="container py-5 fade-in">[m
+[32m+[m[32m<section id="skills" class="skills-section container py-5 fade-in">[m[41m[m
+ [m
+     <h2 class="section-title text-center">[m
+         Technical Skills[m
+     </h2>[m
+ [m
+[31m-    <div class="row mt-4">[m
+[32m+[m[32m    <p class="skills-intro text-center">[m[41m[m
+[32m+[m[32m        Technologies and tools I use to build AI, machine learning[m[41m[m
+[32m+[m[32m        and backend applications.[m[41m[m
+[32m+[m[32m    </p>[m[41m[m
+ [m
+[31m-        <!-- Python -->[m
+ [m
+[31m-        <div class="col-md-4 col-sm-6 mb-4">[m
+[32m+[m[32m    <div class="row mt-5 g-4">[m[41m[m
+ [m
+[31m-            <div class="skill-card text-center p-4 shadow">[m
+[32m+[m[32m        <!-- PYTHON -->[m[41m[m
+ [m
+[31m-                <h5>Python</h5>[m
+[32m+[m[32m        <div class="col-lg-4 col-md-6">[m[41m[m
+ [m
+[31m-                <p>[m
+[31m-                    Python programming, OOP,[m
+[31m-                    data processing and scripting[m
+[31m-                </p>[m
+[32m+[m[32m            <div class="skill-card">[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                <div class="skill-card-header">[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    <div class="skill-icon">[m[41m[m
+[32m+[m[32m                        🐍[m[41m[m
+[32m+[m[32m                    </div>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    <div>[m[41m[m
+[32m+[m[32m                        <h5>Python</h5>[m[41m[m
+[32m+[m[32m                        <span>Core Programming</span>[m[41m[m
+[32m+[m[32m                    </div>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                </div>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                <div class="skill-tags">[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                    <span>OOP</span>[m[41m[m
+[32m+[m[32m                    <span>Data Processing</span>[m[41m[m
+[32m+[m[32m                    <span>Scripting</span>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m                </div>[m[41m[m
+ [m
+             </div>[m
+ [m
+         </div>[m
+ [m
+ [m
+[31m-        <!-- Machine Learning -->[m
+[32m+[m[32m        <!-- MACHINE LEARNING -->[m[41m[m
+ [m
+[31m-        <div class="col-md-4 col-sm-6 mb-4">[m
+[32m+[m[32m        <div class="col-lg-4 col-md-6">[m[41m[m
+ [m
+[31m-            <div class="skill-card text-center p-4 shadow">[m
+[32m+[m[32m            <div class="skill-card">[m[41m[m
+ [m
+[31m-                <h5>Machine Learning</h5>[m
+[32m+[m[32m                <div class="skill-card-header">[m[41m[m
+ [m
+[31m-                <p>[m
+[31m-                    Scikit-learn, feature engineering,[m
+[31m-                    model evaluation[m
+[31m-                </p>[m
+[32m+[m[32m                    <div class="ski

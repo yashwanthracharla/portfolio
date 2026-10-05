@@ -132,3 +132,62 @@ revealElements
 /* Reveal elements already visible */
 
 revealElements();
+
+/* ==============================
+AI ORBIT MOUSE PARALLAX
+================================= */
+
+const aiOrbit = document.querySelector(".ai-orbit");
+
+const prefersReducedMotion =
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+if (aiOrbit && !prefersReducedMotion) {
+
+    let mouseX = 0;
+    let mouseY = 0;
+
+    let currentX = 0;
+    let currentY = 0;
+
+    let animationFrame;
+
+    document.addEventListener("mousemove", function (event) {
+
+        /* Find mouse position relative to the center
+           of the browser window */
+
+        const centerX = window.innerWidth / 2;
+        const centerY = window.innerHeight / 2;
+
+        /* Convert mouse position into a small movement */
+
+        mouseX = (event.clientX - centerX) / centerX;
+        mouseY = (event.clientY - centerY) / centerY;
+
+    });
+
+
+    function animateParallax() {
+
+        /* Smoothly move toward the mouse position */
+
+        currentX += (mouseX - currentX) * 0.05;
+        currentY += (mouseY - currentY) * 0.05;
+
+        /* Maximum movement is intentionally small */
+
+        const moveX = currentX * 12;
+        const moveY = currentY * 12;
+
+        aiOrbit.style.transform =
+            `translate(${moveX}px, ${moveY}px)`;
+
+        animationFrame =
+            requestAnimationFrame(animateParallax);
+
+    }
+
+    animateParallax();
+
+}
